@@ -8,7 +8,7 @@ export const Main = styled.body`
     padding: 0;
 `;
 
-export const NavBar = styled.form`
+export const Header = styled.form`
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -18,4 +18,17 @@ export const NavBar = styled.form`
 export const InputEntrar = styled.input`
     padding: 10px;
 
+`;
+
+export const SectionMain = styled.div`
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 70%;
+    height: 80%;
+    background-color: darkgray;
+`;
+
+export const Slide = styled.div`
+    
 `;
