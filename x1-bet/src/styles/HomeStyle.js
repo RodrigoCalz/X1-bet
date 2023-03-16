@@ -22,11 +22,12 @@ export const InputEntrar = styled.input`
 
 export const SectionMain = styled.div`
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     margin: 0 auto;
     max-width: 70%;
     height: 80%;
     background-color: darkgray;
+    color: black;
 `;
 
 export const Slide = styled.div`

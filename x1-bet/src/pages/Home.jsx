@@ -1,9 +1,10 @@
 import React from 'react'
-import { Header, InputEntrar, Main, SectionMain, Slide, } from '../styles/HomeStyle'
+import { Header, InputEntrar, Main, SectionMain } from '../styles/HomeStyle'
 import Logo from '../assets/logo.png'
 import Slide1 from '../assets/slide1.png'
 import Slide2 from '../assets/slide2.png'
 import Slide3 from '../assets/slide3.png'
+import Carousel from '../components/Carousel'
 
 const Home = () => {
   return (
@@ -20,9 +21,7 @@ const Home = () => {
         </Header>
 
         <SectionMain>
-          <Slide>
-            <img src={Slide1} alt="slide-1" />
-          </Slide>
+          <Carousel />
         </SectionMain>
 
     </Main>
